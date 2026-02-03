@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "myAppCB",
+    "slug": "myAppCB",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./src/assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.ecolink.myAppCB"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "b4c8bcdd-5ad5-46b6-8b7b-2f2c23d2e424"
+      },
+      "webClientId": ""
+    },
+    "plugins": [
+      "expo-video"
+    ]
+  }
+}
